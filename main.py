@@ -12,3 +12,7 @@ with col2:
     I specialize in creating colorful and bold brands that truly stand out. From vibrant logos to eye-catching advertisements, 
     I love to play with colors and push the boundaries of traditional design. ✨Let's work together"""
     st.write(content)
+
+with st.container():
+    st.write("Below you can find some of the apps I have built in Python. Feel free to contact me!")
+

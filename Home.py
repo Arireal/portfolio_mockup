@@ -3,6 +3,23 @@ import pandas
 
 
 st.set_page_config(layout='wide')
+
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: white;
+        color: black;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: #5c5151 !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
 col1, col2 = st.columns(2)
 
 with col1:

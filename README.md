@@ -15,8 +15,8 @@ This project is a portfolio website mockup featuring a secure email form that al
 - Environment variables for security (`os` module)
 - HTML/CSS for the front-end form
 
-## Setup Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/portfolio-mockup.git
-   cd portfolio-mockup
+## Live Demo
+
+You can see the form in action here:  
+[Portfolio Mockup - Email Form](https://portfoliomockup.streamlit.app/Contact_Us)
+

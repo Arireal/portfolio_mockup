@@ -30,8 +30,8 @@ with col2:
     content = """ Hi there, this is Ariane :)🚀 I am a passionate Python and Full Stack Developer. 
     I specialize in bringing projects to life through coding and solving complex UX/UI problems.
     From building robust web applications to enhancing user experiences, I love crafting elegant
-    solutions that push the boundaries of technology and design. 
-    🌟 Let's work together to turn your ideas into reality!"""
+    solutions mixing technology and design. 
+    Let's work together to turn your ideas into reality!"""
     st.write(content)
 
 content2 = """ Below you can find some of the apps I have built in Python. Feel free to contact me!"""
@@ -46,7 +46,7 @@ with col3:
         st.header(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
-        st.write(f"[Source Code]({row['url']})")
+
 
 with col4:
     for index, row in df[10:].iterrows():
